@@ -1,39 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfólio - Edward Ferreira Junior</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Roboto', sans-serif; background: #f4f4f9; color: #333; scroll-behavior: smooth; }
-  header { background: linear-gradient(135deg, #3b82f6, #1e40af); color: #fff; text-align: center; padding: 2rem 1rem; }
-  header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-  header p { font-size: 1.1rem; margin-bottom: 0.3rem; }
-  nav { background: #1e40af; text-align: center; padding: 0.5rem; position: sticky; top: 0; z-index: 100; }
-  nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: 500; transition: 0.3s; }
-  nav a:hover { text-decoration: underline; }
-  section { max-width: 900px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); opacity: 0; transform: translateY(50px); transition: all 0.8s ease; }
-  section.visible { opacity: 1; transform: translateY(0); }
-  section h2 { color: #1e40af; border-bottom: 3px solid #3b82f6; padding-bottom: 0.5rem; margin-bottom: 1rem; }
-  ul { list-style-type: disc; padding-left: 1.5rem; margin-top: 0.5rem; }
-  .experience-item { margin-bottom: 1rem; border-bottom: 1px solid #ddd; }
-  .experience-item button { background: none; border: none; width: 100%; text-align: left; font-size: 1.1rem; font-weight: 700; padding: 0.5rem 0; cursor: pointer; color: #1e40af; }
-  .experience-item button:hover { color: #3b82f6; }
-  .experience-content { display: none; padding: 0.5rem 1rem; }
-  footer { text-align: center; padding: 1rem; background: #1e40af; color: #fff; margin-top: 2rem; }
-  footer a { color: #3b82f6; text-decoration: none; }
-  footer a:hover { text-decoration: underline; }
-  .buttons { text-align: center; margin: 1rem 0; }
-  .buttons a { background: #3b82f6; color: #fff; padding: 0.6rem 1.2rem; border-radius: 5px; margin: 0 0.5rem; text-decoration: none; font-weight: 500; transition: 0.3s; }
-  .buttons a:hover { background: #1e40af; }
-  .chart-container { max-width: 600px; margin: 1rem auto; }
-</style>
-</head>
-<body>
-
 <header>
   <h1>Edward Ferreira Junior</h1>
   <p>Analista de Negócios e Requisitos | Metodologias Ágeis e Transformação Digital</p>
